@@ -5,7 +5,7 @@ export default class DotnetCore extends Component {
   constructor(props) {
     super(props);
 
-    this.endpoint = 'https://cors.dotnet.com';
+    this.endpoint = 'https://cors.dotnetcore.com';
   }
 
   render () {
