@@ -2,3 +2,5 @@ export PORT=
 
 # node path
 export PATH=
+
+export WDS_SOCKET_PORT=0
