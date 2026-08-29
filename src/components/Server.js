@@ -77,7 +77,7 @@ export default class Server extends Component {
 
   renderPart = type => {
     return (
-      <section class="verb">
+      <section class="verb" data-class={'verb'}>
         <p>
           <b>
             URL:
@@ -104,7 +104,7 @@ export default class Server extends Component {
   renderParts = () => {
     if (this.state.loaded) {
       return (
-        <section class="server">
+        <section class="server" data-class={'server'}>
           {this.renderGetPart()}
           {this.renderPostPart()}
           {this.renderPutPart()}
